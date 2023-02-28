@@ -1,0 +1,82 @@
+*{
+  font-family: 'Times New Roman', Times, serif; 
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 25px ;
+
+    /*Table modifications*/}
+
+  h2{text-align: center; 
+    text-decoration: underline; 
+    font-size: 35px ;
+    /*Title "Student Personal Development Plan" modifications*/}
+  h2::after {
+      content: "   (PLEASE FILL FORM!)";
+      background-color: rgb(255, 255, 255);
+      color: rgb(20, 20, 20);
+      font-weight: bold;
+      /*Title element "PLEASE FILL FORM" modifications*/}
+  p{ font-weight: bold;
+     font-size: 25px
+    /*User Input modifications*/}
+  b::after {
+  content: " ...";
+  color: rgb(20, 20, 20);
+  }
+  input{
+         border: none;
+         width: 50%;
+  }
+  textarea{
+            border: none;
+            resize: none;
+            width: 98%;
+  }
+  #aa, #oss, #lsk, #tw, #pcs{
+                             height: 20px;
+                             width: 98%;
+  }
+  #myp, #yeo{
+              height: 25px;
+             width: 99.5%;
+  }
+  h4{font-size: 25px ;
+  /*User Input modifications*/}
+
+  footer{ text-align: center;
+  /*Footer element modifications*/}
+
+  body{ border: 15px solid rgb(16, 16, 16); 
+        padding: 100px;
+        margin-top:50px;
+        margin-bottom:30px;
+        margin-right:10px;
+        margin-left:10px;
+        /*Body of page modifications*/}
+
+  a { font-weight: bold;
+      font-size: 25px ;}
+  a:link { color: rgb(0, 0, 0); }
+  a:visited { color: rgb(113, 113, 113); }
+  a:hover { color: white; background-color: black; }
+  a:active { color: aqua; background-color: navy; 
+  /*Links modifications*/}
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /*Leicester University Logo modifications*/}
+
+  .window{
+    margin: 5%;
+    text-align: center;
+  /*Youtube video modifications*/}
+
+  .links{
+    margin-top: 2%;
+  text-align: center;
+  /*Javascript elements modifications*/}
